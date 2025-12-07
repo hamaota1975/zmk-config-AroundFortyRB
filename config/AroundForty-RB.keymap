@@ -120,7 +120,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        SCRALL {
+        SCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
@@ -140,12 +140,12 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        AutoMouse_Layer {
+        MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans          &trans  &trans    &msc MOVE_Y(5)  &trans    &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &mkp MB1  &mkp MB3        &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans    &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
             >;
         };
     };
