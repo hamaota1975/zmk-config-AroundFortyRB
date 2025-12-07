@@ -60,7 +60,7 @@
 
         Mac-Default_Layer {
             bindings = <
-&kp Q      &kp W             &kp E     &kp R                      &kp T                  &kp Y          &kp U    &kp I                    &kp O                  &kp P
+&kp Q      &kp W             &kp E     &kp R                      &kp T                  &kp Y          &kp U    &lt 6 I                  &kp O                  &kp P
 &kp A      &kp S             &kp D     &kp F                      &kp G                  &kp H          &kp J    &kp K                    &kp L                  &kp MINUS
 &kp Z      &kp X             &kp C     &kp V                      &kp B      &kp ESCAPE  &kp N          &kp M    &kp COMMA                &kp PERIOD             &mt RIGHT_SHIFT SLASH
 &kp LSHFT  &kp LEFT_CONTROL  &kp LALT  &lt_to_layer_0 1 LEFT_GUI  &kp SPACE  &lt 3 CAPS  &kp BACKSPACE  &kp TAB  &lt_to_layer_0 2 RETURN  &lt_to_layer_0 7 RALT  &kp RSHFT
@@ -79,8 +79,8 @@
         ARROW {
             bindings = <
 &kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK          &kp LC(LEFT)          &kp LEFT            &kp UP_ARROW    &kp RIGHT         &kp LC(RIGHT)
-&kp MINUS        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH             &kp LEFT_PARENTHESIS  &kp LC(DOWN_ARROW)  &kp DOWN_ARROW  &kp LC(UP_ARROW)  &kp C_VOL_UP
-&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &trans  &kp C_BRI_DEC         &kp C_BRI_INC       &kp F11         &kp K_MUTE        &kp C_VOL_DN
+&kp MINUS        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH             &kp LEFT_PARENTHESIS  &kp LC(DOWN_ARROW)  &kp DOWN_ARROW  &kp LC(UP_ARROW)  &kp K_VOLUME_UP
+&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &trans  &kp C_BRI_DEC         &kp C_BRI_INC       &kp F11         &kp K_MUTE        &kp K_VOLUME_DOWN
 &trans           &trans           &trans           &trans           &trans        &trans  &trans                &trans              &trans          &kp BACKSLASH     &kp HASH
             >;
 
