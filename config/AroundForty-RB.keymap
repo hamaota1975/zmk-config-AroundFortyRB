@@ -76,17 +76,17 @@
             bindings = <
 &kp F1        &kp F2            &kp F3             &kp F4                   &kp F5                         &kp F6         &kp F7   &kp F8      &kp F9               &kp F10
 &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4             &kp N5                         &kp NUMBER_6   &kp N7   &kp N8      &kp N9               &kp N0
-&kp TILDE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH            &kp MINUS    &kp ESCAPE        &kp EQUAL      &kp M    &kp K_MUTE  &kp C_VOL_DN         &kp C_VOLUME_UP
+&kp TILDE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH            &kp MINUS    &kp ESCAPE        &kp EQUAL      &kp M    &kp K_MUTE  &kp K_VOLUME_DOWN    &kp K_VOLUME_UP
 &kp LSHFT     &kp LEFT_CONTROL  &kp LEFT_ALT       &mt LEFT_SHIFT LEFT_GUI  &lt 3 SPACE  &lt 6 LANGUAGE_2  &kp BACKSPACE  &kp TAB  &kp RET     &lt 4 RIGHT_CONTROL  &kp RSHFT
             >;
         };
 
         Mac-Function_Layer {
             bindings = <
-&kp LG(A)  &kp LG(X)     &kp LG(C)    &kp LG(V)  &kp LG(F)          &kp LC(LEFT)          &kp LEFT            &kp UP_ARROW     &kp RIGHT         &kp LC(RIGHT)
-&kp TAB    &kp LEFT_GUI  &kp LS(TAB)  &mkp MB1   &mkp MB2           &kp LEFT_PARENTHESIS  &kp LC(DOWN_ARROW)  &kp DOWN_ARROW   &kp LC(UP_ARROW)  &kp DOUBLE_QUOTES
-&trans     &trans        &trans       &trans     &mkp MB3   &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp EXCLAMATION  &kp QUESTION      &kp SQT
-&trans     &trans        &trans       &trans     &trans     &trans  &trans                &trans              &trans           &kp BACKSLASH     &kp HASH
+&kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK          &kp LC(LEFT)          &kp LEFT            &kp UP_ARROW     &kp RIGHT         &kp LC(RIGHT)
+&kp MINUS        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH             &kp LEFT_PARENTHESIS  &kp LC(DOWN_ARROW)  &kp DOWN_ARROW   &kp LC(UP_ARROW)  &kp DOUBLE_QUOTES
+&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp EXCLAMATION  &kp QUESTION      &kp SQT
+&trans           &trans           &trans           &trans           &trans        &trans  &trans                &trans              &trans           &kp BACKSLASH     &kp HASH
             >;
 
             sensor-bindings = <&scroll_up_down>;
